@@ -1,0 +1,31 @@
+{
+  "name": "confidential-stablecoin",
+  "version": "1.0.0",
+  "description": "Confidential Stablecoin — Privacy-Preserving Payments with FHEVM",
+  "main": "hardhat.config.ts",
+  "scripts": {
+    "build": "hardhat compile",
+    "test": "hardhat test"
+  },
+  "keywords": ["fhevm", "stablecoin", "privacy", "solidity", "hardhat", "zama"],
+  "license": "MIT",
+  "dependencies": {
+    "@fhevm/solidity": "^0.5.0",
+    "@openzeppelin/contracts": "^5.0.0"
+  },
+  "devDependencies": {
+    "@fhevm/hardhat-plugin": "^0.1.0",
+    "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
+    "@nomicfoundation/hardhat-ethers": "^3.0.0",
+    "@typechain/ethers-v6": "^0.5.0",
+    "@typechain/hardhat": "^9.0.0",
+    "@types/chai": "^4.3.0",
+    "@types/mocha": "^10.0.0",
+    "@types/node": "^20.0.0",
+    "chai": "^4.3.7",
+    "ethers": "^6.8.0",
+    "hardhat": "^2.19.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.2.0"
+  }
+}
